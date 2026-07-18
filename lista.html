@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List A Career | Shoaib Akhtar</title>
+    <style>
+        :root {
+            --primary-color: #0d233a;
+            --accent-color: #e67e22;
+            --text-color: #333;
+            --bg-color: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), #2c3e50);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+
+        header h1 mark {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0 10px;
+            border-radius: 4px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .career-text {
+            font-size: 1.1rem;
+            color: #444;
+            text-align: justify;
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 5px solid var(--accent-color);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        .hero-image-container {
+            position: relative;
+            display: inline-block;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+            margin-bottom: 30px;
+        }
+
+        .hero-image-container:hover {
+            transform: scale(1.02);
+        }
+
+        .hero-image {
+            max-width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        @media (min-width: 600px) {
+            .stats-grid {
+                grid-template-columns: repeat(5, 1fr);
+            }
+        }
+
+        .stat-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        .stat-card h3 {
+            margin: 0;
+            color: var(--primary-color);
+            font-size: 1.4rem;
+        }
+
+        .stat-card p {
+            margin: 5px 0 0 0;
+            font-size: 0.8rem;
+            color: #777;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .btn-link {
+            display: inline-block;
+            text-decoration: none;
+            padding: 12px 25px;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color: var(--accent-color);
+            color: white;
+            box-shadow: 0 4px 10px rgba(230, 126, 34, 0.3);
+        }
+
+        .btn-primary:hover {
+            background-color: #d35400;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(230, 126, 34, 0.4);
+        }
+
+        .btn-secondary {
+            background-color: #7f8c8d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background-color: #95a5a6;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: #777;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><mark>List A Career</mark> of Shoaib Akhtar</h1>
+    </header>
+
+    <div class="container">
+        
+        <div class="hero-image-container">
+            <img src="https://i.pinimg.com/474x/4b/f6/f1/4bf6f197ad48bcf5bcc0a761954cb48d.jpg" alt="Shoaib Akhtar in Pakistan ODI kit" class="hero-image">
+        </div>
+
+        <p class="career-text">
+            Shoaib Akhtar's List A career spanned from 1993 to 2011, encompassing 221 matches where he took 338 wickets at a stellar average of 25.21 and a 4.81 economy rate. Representing major domestic giants like Rawalpindi, Pakistan International Airlines (PIA), Khan Research Laboratories (KRL), and English counties, his white-ball prowess yielded 7 five-wicket hauls. His lethal best bowling figures of 6/16 underscored a devastating ability to run through batting orders using sheer, unmatched pace.
+        </p>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>221</h3>
+                <p>Matches</p>
+            </div>
+            <div class="stat-card">
+                <h3>338</h3>
+                <p>Wickets</p>
+            </div>
+            <div class="stat-card">
+                <h3>25.21</h3>
+                <p>Average</p>
+            </div>
+            <div class="stat-card">
+                <h3>4.81</h3>
+                <p>Econ</p>
+            </div>
+            <div class="stat-card">
+                <h3>6/16</h3>
+                <p>Best</p>
+            </div>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="fc.html" class="btn-link btn-secondary">&larr; First Class</a>
+            <a href="t20.html" class="btn-link btn-primary">T20 Career &rarr;</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Developed by Ibrahim. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
